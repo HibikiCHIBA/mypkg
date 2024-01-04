@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000294] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.100025] (-) TimerEvent: {}
+[0.200378] (-) TimerEvent: {}
+[0.300625] (-) TimerEvent: {}
+[0.400838] (-) TimerEvent: {}
+[0.430823] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/mypkg', 'build', '--build-base', '/home/hibiki/.ssh/mypkg/build/mypkg/build', 'install', '--record', '/home/hibiki/.ssh/mypkg/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/hibiki/.ssh/mypkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja', 'USER': 'hibiki', 'SSH_AGENT_PID': '1661', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hibiki/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/hibiki', 'OLDPWD': '/home/hibiki/.ssh/mypkg/mypkg_', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '1501', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/hibiki/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'hibiki', 'JOURNAL_STREAM': '8:51622', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hibiki/cmake-3.16.3/bin/:/opt/ros/foxy/bin:/home/hibiki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Hibiki-PC:@/tmp/.ICE-unix/1700,unix/Hibiki-PC:/tmp/.ICE-unix/1700', 'GDM_LANG': 'ja', 'INVOCATION_ID': '473903fc3d5b49dc89d395d7840cfe03', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/19ac62f0_17e2_43fb_88ad_3c1236d39697', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/hibiki/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/hibiki', 'AMENT_PREFIX_PATH': '/home/hibiki/ros2_ws/install/person_msgs:/home/hibiki/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hibiki/.ssh/mypkg/build/mypkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hibiki/.ssh/mypkg/build/mypkg/prefix_override:/home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages:/home/hibiki/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/hibiki/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/hibiki/ros2_ws/install/person_msgs'}, 'shell': False}
+[0.500932] (-) TimerEvent: {}
+[0.575380] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.575603] (mypkg) StdoutLine: {'line': b'creating build/mypkg/mypkg.egg-info\n'}
+[0.575723] (mypkg) StdoutLine: {'line': b'writing build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.575782] (mypkg) StdoutLine: {'line': b'writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.575841] (mypkg) StdoutLine: {'line': b'writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.575877] (mypkg) StdoutLine: {'line': b'writing requirements to build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.575911] (mypkg) StdoutLine: {'line': b'writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.576619] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.595941] (mypkg) StdoutLine: {'line': b"reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.596267] (mypkg) StdoutLine: {'line': b"writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.596312] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.596348] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.596418] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/build/mypkg/build\n'}
+[0.596459] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/build/mypkg/build/lib\n'}
+[0.596494] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.596551] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.596610] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.596644] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg\n'}
+[0.596677] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.597027] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.597613] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.597649] (mypkg) StdoutLine: {'line': b'copying /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.597705] (mypkg) StdoutLine: {'line': b'copying /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.597739] (mypkg) StdoutLine: {'line': b'copying /home/hibiki/.ssh/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.597913] (mypkg) StdoutLine: {'line': b'byte-compiling /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc\n'}
+[0.598574] (mypkg) StdoutLine: {'line': b'byte-compiling /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc\n'}
+[0.598664] (mypkg) StdoutLine: {'line': b'byte-compiling /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc\n'}
+[0.598860] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.599129] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/install/mypkg/share/ament_index\n'}
+[0.599165] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/install/mypkg/share/ament_index/resource_index\n'}
+[0.599199] (mypkg) StdoutLine: {'line': b'creating /home/hibiki/.ssh/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.599279] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/hibiki/.ssh/mypkg/install/mypkg/share/ament_index/resource_index/packages\n'}
+[0.599385] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/hibiki/.ssh/mypkg/install/mypkg/share/mypkg\n'}
+[0.599419] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/hibiki/.ssh/mypkg/install/mypkg/share/mypkg\n'}
+[0.599452] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.600178] (mypkg) StdoutLine: {'line': b'Copying build/mypkg/mypkg.egg-info to /home/hibiki/.ssh/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.600590] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.600998] (-) TimerEvent: {}
+[0.610118] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/hibiki/.ssh/mypkg/install/mypkg/lib/mypkg\n'}
+[0.610188] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/hibiki/.ssh/mypkg/install/mypkg/lib/mypkg\n'}
+[0.610345] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/hibiki/.ssh/mypkg/build/mypkg/install.log'\n"}
+[0.621450] (mypkg) CommandEnded: {'returncode': 0}
+[0.630389] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.630720] (-) EventReactorShutdown: {}
