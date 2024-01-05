@@ -1,10 +1,10 @@
 # mypkg
 ![test](https://github.com/HibikiCHIBA/mypkg/actions/workflows/test.yml/badge.svg)
 
-千葉工業大学 上田隆一先生の講義 ロボットシステム学 2023年度版の内容に沿って作成した ROS 2 課題の提出用リポジトリ
+- 本リポジトリは ROS 2 パッケージである. 
+- 機能として, talker ノードがカウントアップした数値を, トピックを通して Int16 型のメッセージとして listener ノードが受信し, その数値を出力する. 
 
 # Node & Topic
-- 本リポジトリは ROS 2 パッケージである. 
 - talker と listener の2つのノードで構成されている. 
 - talker はカウントアップした数値を, countup というトピックを通して Int16 型のメッセージで送信する. 
 - listener は countup トピックから Int16 型のメッセージを受信して出力する. 
@@ -56,9 +56,11 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 # Environment
 * Ubuntu 20.04.4 LTS
+  * ROS 2 Foxy
 * python 3.8.10
 ## Testing Environment
 * Ubuntu 22.04 LTS
+  * ROS 2 Humble
 
 # License
 * このソフトウェアパッケージは, [3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下, 再配布および使用が許可されています. 
