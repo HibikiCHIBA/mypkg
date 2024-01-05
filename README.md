@@ -62,7 +62,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 * Ubuntu 22.04 LTS
   * ROS 2 Humble
 
-# License
+# Copyright & License
 * このソフトウェアパッケージは, [3条項BSDライセンス](https://opensource.org/license/bsd-3-clause/)の下, 再配布および使用が許可されています. 
 * このパッケージのコードは，上田隆一先生の[スライド](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 * © 2023 Hibiki Chiba
